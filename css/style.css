@@ -1,0 +1,37 @@
+body {
+	background-image: url('../images/race.png');
+}
+
+.car1 {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 700px;
+	top: -850px;
+	background-image: url('../images/car.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	animation: move 3.5s linear infinite;
+}
+
+@keyframes move {
+	from {top: 850px}
+	to {top: -700px;}
+}
+
+.car2 {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 1200px;
+	top: -850px;
+	background-image: url('../images/green.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	animation: move2 4s linear infinite;
+}
+
+@keyframes move2 {
+	from {top: 780px}
+	to {top: -850px;}
+}
